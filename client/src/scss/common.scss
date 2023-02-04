@@ -1,0 +1,24 @@
+
+body {
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+
+    [class*="MUIDataTableToolbarSelect-root"] {
+        background-color: #ffe0b2 !important;
+    }
+
+    .table-container {
+        table tr {
+            cursor: pointer;
+        }
+    }
+
+    .placement-view-container {
+        .details-box {
+            .MuiAlert-message {
+                width: 100%;
+            }
+        }
+    }
+}
